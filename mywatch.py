@@ -13,11 +13,11 @@ subprocess.run(command, shell=True)
 dirhash = checksumdir.dirhash(_dir)
 
 
-while True:
-    sleep(1)
-    new_hash = checksumdir.dirhash(_dir)
-    if new_hash != dirhash:
-        print(f"Change detected, new hash: {new_hash}")
-        dirhash = new_hash
-        subprocess.run(command, shell=True)
-
+if __name__ == 'main':
+    while True:
+        sleep(1)
+        new_hash = checksumdir.dirhash(_dir)
+        if new_hash != dirhash:
+            print(f"Change detected, new hash: {new_hash}")
+            dirhash = new_hash
+            subprocess.run(command, shell=True)
