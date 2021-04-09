@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 import subprocess
 import checksumdir
@@ -13,7 +15,7 @@ subprocess.run(command, shell=True)
 dirhash = checksumdir.dirhash(_dir)
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     while True:
         sleep(1)
         new_hash = checksumdir.dirhash(_dir)
