@@ -1,0 +1,8 @@
+README.md
+mywatch.py
+setup.py
+mywatch.egg-info/PKG-INFO
+mywatch.egg-info/SOURCES.txt
+mywatch.egg-info/dependency_links.txt
+mywatch.egg-info/requires.txt
+mywatch.egg-info/top_level.txt

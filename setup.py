@@ -9,7 +9,7 @@ setupargs = {
     'description': 'Provides an ORM for MySQL, PostgreSQL and SQLite.',
 
     'license': 'GPLv3',
-    'version': '0.0.3',
+    'version': '0.0.4',
 
     'long_description': long_description,
     'long_description_content_type': 'text/markdown',
